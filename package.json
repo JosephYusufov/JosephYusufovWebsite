@@ -1,0 +1,29 @@
+{
+  "name": "josephyusufovwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephYusufov/JosephYusufovWebsite.git"
+  },
+  "author": "Joseph Yusufov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephYusufov/JosephYusufovWebsite/issues"
+  },
+  "homepage": "https://github.com/JosephYusufov/JosephYusufovWebsite#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "forever": "^1.0.0",
+    "http": "0.0.0",
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "jsdom": "^15.1.1",
+    "nodemon": "^1.19.1"
+  }
+}
