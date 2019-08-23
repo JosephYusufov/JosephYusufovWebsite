@@ -1,5 +1,80 @@
-a{
-    text-decoration: none;
-    color: black;
-    font-size: 1.3em;
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display|Rubik&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: 100vh;
+    /* grid-template-areas: sidebar meat; */
+}
+
+.grid >.sidebar{
+    background: #32936F;
+}
+
+.grid > .meat{
+    background: #EEF1EF;
+}
+
+.nested{
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 15px;
+    grid-template-areas: 
+    "name"
+    "image"
+    "number"
+    "email"
+    "github";
+}
+
+.nested > #name{
+    padding-top: 20px;
+    grid-area: name;
+    font-family: "Rubik";
+    font-size: 3em;
+    color: #EEF1EF;
+}
+.nested > #image{
+    grid-area: image;
+    border-radius: 20px;
+    height: 35vh;
+    margin: 10px 0px;
+}
+.nested > #number{
+    grid-area: number;
+    font-family: "Rubik";
+    color: #EEF1EF;
+}
+.nested > #email{
+    grid-area: email;
+    font-family: "Rubik";
+    color: #EEF1EF;
+}
+.nested > #github{
+    grid-area: github;
+    font-family: "Rubik";
+    color: #EEF1EF;
+}
+
+.nested > * :hover{
+    color: #054A29;
+    transition: 0.3s;
+}
+
+.content{
+    margin: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.content > h1{
+    text-align: center;
+    font-family: "Red Hat Display";
+    margin-bottom: 15px;
 }
