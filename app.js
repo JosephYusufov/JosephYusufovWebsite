@@ -11,8 +11,8 @@ app.set('view engine', 'ejs')
 app.use('/static', express.static('static'))
 app.use('/js', express.static('js'))
 
-app.listen('8080', () => {
-    console.log('Server started on port 8080')
+app.listen('80', () => {
+    console.log('Server started on port 80')
 });
 
 app.get('/', (req, res)=> {
