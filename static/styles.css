@@ -31,7 +31,7 @@ body{
     grid-template-rows: 1fr 3fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    grid-gap: 15px;
+    /* grid-gap: 15px; */
     grid-template-areas: 
     "name"
     "image"
@@ -121,27 +121,70 @@ body{
 }
 
 .bio-card {
-	/* box-shadow: 3px 3px 3px #bad4ec; */
 	padding: 1%;
-    width: 30.1%;
+    width: 29%;
     margin-right: 1%;
     margin-bottom: 1%;
     text-align: center;
-    background: white;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background: #EEF1EF;
+    border: 5px solid #7B506F;
     border-radius: 10px;
     font-family: "Red Hat Display";
-    color: #2E76BB;
+    color: black;
+    position: relative;
 }
 
 .bio-card .bio-text {
     text-align: justify;
     padding: 5%;
 }
-
+.bio-card .name{
+    font-weight: 700;
+}
 .bio-card img {
 	object-fit: cover;
-  	/* border-radius: 50%; */
+  	border-radius: 50%;
     width: 18vw;
     margin-bottom: 2%;
-	/* height: 300px; */
+    /* height: 300px; */
+    background: blue;
+}
+
+#symphonyimg{
+    background-color: lightskyblue;
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+    position: absolute;
+    bottom: 5px;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    transition: 0.3s;
+}
+.see-more{
+    align-self: center;
+    justify-self: center;
+    background-color: #EEF1EF;
+    color: #7B506F;
+    font-family: 'Red Hat Display';
+    font-size: 0.7em;
+    font-weight: 700;
+    border: 2px solid #7B506F;
+    border-radius: 5px;
+    height: 5vh;
+    width: 5vw;
+    margin-top: 3vh;
+    transition: 0.3s;
+}
+
+a :hover{
+    color: #EEF1EF;
+    background-color: #7B506F;
+    transition: 0.3s;
 }
