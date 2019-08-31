@@ -4,102 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <%# <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> %>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
     <link rel="stylesheet" href="./../static/styles.css">
     <title>Joseph Yusufov</title>
 </head>
 <body>
-    <div class="grid">
-        <div class="sidebar">
-            <div class="sidebar-wrap">
-                <div class="nested">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 aside">
+                <div width="100%" class="nested">
                     <h1 id="name">Joseph Yusufov</h1> 
-                    <img id="image" src="./../static/profile-image.png" alt="image">
-                    <h3 id="number"> 347-979-6200 </h3>
-                    <h3 id="email"> jyusufov00@stuy.edu </h3>
-                    <h3 id="github"> https://github.com/JosephYusufov </h3>
+                    <img id="image" src="./../static/profile-image.png" alt="image" width="100%">
+                    <h3 class="h3. Bootstrap heading"id="number"> 347-979-6200 </h3>
+                    <h3 class="h3. Bootstrap heading">jyusufov00@stuy.edu</h3>
+                    <h5 width="100px"id="github">https://github.com/JosephYusufov</h5>
                 </div>
             </div>
-        </div>
-        <div class="meat">
-            <div class="content">
-                <h1>CLEVER, INTUITIVE, AND RELIABLE</h1>
-                <hr>
-                <h2>Skills</h2>
-                <ul id="skills">
-                    <ul id="programming-languages">
-                        <h3>Programming Languages:</h3>
-                        <li>Java (AP Computer Science)</li>
-                        <li>HTML and CSS</li>
-                        <li>JavaScript and popular Javascript Libraries (Node.js, Express.js, Passport.js)</li>
-                        <li>PHP</li>
-                        <li>SQL, MySQL, and Database Administration</li>
-                        <li>Swift and the XCode Platform</li>
+            <div class="col-7">
+                <div class="content">
+                    <h1>CLEVER, INTUITIVE, AND RELIABLE</h1>
+                    <hr>
+                    <h2>Skills</h2>
+                    <ul id="skills">
+                        <ul id="programming-languages">
+                            <h3>Programming Languages:</h3>
+                            <li>Java (AP Computer Science)</li>
+                            <li>HTML and CSS</li>
+                            <li>JavaScript and popular Javascript Libraries (Node.js, Express.js, Passport.js)</li>
+                            <li>PHP</li>
+                            <li>SQL, MySQL, and Database Administration</li>
+                            <li>Swift and the XCode Platform</li>
+                        </ul>
+                        <br>
+                        <ul id="productivity">
+                            <h3>Productivity Tools:</h3>
+                            <li>Microsoft Word</li>
+                            <li>Microsoft Excel</li>
+                            <li>Microsoft PowerPoint</li>
+                            <li>Git/Github</li>
+                        </ul>
+                        <br>
+                        <ul id="Marketing">
+                            <h3>Marketing and Social Media:</h3>
+                            <li>Facebook Ad Platform</li>
+                            <li>Instagram Ad Platform</li>
+                            <li>Social Media Marketing (Facebook, Instagram, Twitter)</li>
+                        </ul>
                     </ul>
+                    <%# END OF SKILLS %>
                     <br>
-                    <ul id="productivity">
-                        <h3>Productivity Tools:</h3>
-                        <li>Microsoft Word</li>
-                        <li>Microsoft Excel</li>
-                        <li>Microsoft PowerPoint</li>
-                        <li>Git/Github</li>
-                    </ul>
+                    <hr>
                     <br>
-                    <ul id="Marketing">
-                        <h3>Marketing and Social Media:</h3>
-                        <li>Facebook Ad Platform</li>
-                        <li>Instagram Ad Platform</li>
-                        <li>Social Media Marketing (Facebook, Instagram, Twitter)</li>
-                    </ul>
-                </ul>
-                <%# END OF SKILLS %>
-                <br>
-                <hr>
-                <br>
-                <h2>Projects and Experience</h2>
-                <div class="bio-container">
-                    <div class="bio-card">
-                        <img id="symphonyimg" src="./../static/notee.png" alt="vishwaa"><br>
-                        <span class="name">Project Symphony</span><br>
-                        <span class="title">Web App</span><br>
+                    <h2>Projects and Experience</h2>
+                    <div class="bio-container">
+                        <div class="bio-card">
+                            <img id="symphonyimg" src="./../static/notee.png" alt="vishwaa"><br>
+                            <span class="name">Project Symphony</span><br>
+                            <span class="title">Web App</span><br>
+                                <div class="bio-text">
+                                    <span class="desc">
+                                        Project Symphony is an online event board for students and organizations that allows groups and individuals alike to keep their events organized, and inform students of any events happening in the city. For Project Symphony, I am the primary back-end developer, and worked with one other developer to build the front end of the app in HTML, CSS, and JS.
+                                    </span>
+                                </div>
+                            <a href="http://tejas.website"> <button class="see-more">See More</button> </a>
+                        </div>
+                    
+                        <div class="bio-card">
+                            <img src="./../static/stuymunlogo-bg-01.png" alt="neve"><br>
+                            <span class="name">StuyMUN</span><br>
+                            <span class="title">Organization Website</span><br>
+                            <span class="title">Note: Link below is the site from 2018, the new website is currently being developed</span><br>
                             <div class="bio-text">
                                 <span class="desc">
-                                    Project Symphony is an online event board for students and organizations that allows groups and individuals alike to keep their events organized, and inform students of any events happening in the city. For Project Symphony, I am the primary back-end developer, and worked with one other developer to build the front end of the app in HTML, CSS, and JS.
+                                    As a co-president of the Stuyvesant Model UN team, I worked with the other co-president of our team to build an effective, terse website for our organization. Since this site only serves to inform, we put more focus into the appearance and aesthetic appeal of the site, making effective design decisions.
                                 </span>
                             </div>
-                        <a href="http://tejas.website"> <button class="see-more">See More</button> </a>
-                    </div>
-                
-                    <div class="bio-card">
-                        <img src="./../static/stuymunlogo-bg-01.png" alt="neve"><br>
-                        <span class="name">StuyMUN</span><br>
-                        <span class="title">Organization Website</span><br>
-                        <span class="title">Note: Link below is the site from 2018, the new website is currently being developed</span><br>
-                        <div class="bio-text">
-                            <span class="desc">
-                                As a co-president of the Stuyvesant Model UN team, I worked with the other co-president of our team to build an effective, terse website for our organization. Since this site only serves to inform, we put more focus into the appearance and aesthetic appeal of the site, making effective design decisions.
-                            </span>
+                            <a href="https://stuymun.com"> <button class="see-more">See More</button> </a>
                         </div>
-                        <a href="https://stuymun.com"> <button class="see-more">See More</button> </a>
-                    </div>
 
-                    <div class="bio-card">
-                        <img src="./../static/logo_1080x.png" alt="sherry"><br>
-                        <span class="name">Zussya</span><br>
-                        <span class="title">E-commerce Store</span><br>
-                        <div class="bio-text">
-                            <span class="desc">
-                                Zussya is a venture that I undertook to get myself into the E-commerce scope. Zussya is an online Men's Jewelry store that I build using Shopify, and ran ads to using the Facebook Ad platform.
-                            </span>
-                        </div>
-                        <a href="https://sultan-of-bling.myshopify.com"> <button class="see-more">See More</button> </a>
-                    </div>                            
+                        <div class="bio-card">
+                            <img src="./../static/logo_1080x.png" alt="sherry"><br>
+                            <span class="name">Zussya</span><br>
+                            <span class="title">E-commerce Store</span><br>
+                            <div class="bio-text">
+                                <span class="desc">
+                                    Zussya is a venture that I undertook to get myself into the E-commerce scope. Zussya is an online Men's Jewelry store that I build using Shopify, and ran ads to using the Facebook Ad platform.
+                                </span>
+                            </div>
+                            <a href="https://sultan-of-bling.myshopify.com"> <button class="see-more">See More</button> </a>
+                        </div>                            
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <%# <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> %>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
