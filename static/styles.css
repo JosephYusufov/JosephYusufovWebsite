@@ -1,0 +1,19 @@
+h5{
+    width: 100%;
+    overflow: scroll;
+    white-space: initial;
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+.navtext{
+    text-align: center;
+}
+
+.aside{
+    background: pink;
+}
